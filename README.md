@@ -85,6 +85,7 @@ To execute the method add the files in [additional_functions/](./Calibration_Met
 There are three types of matrix-based transformations to calibrate a user display to math a reference display. 
 
 * [T_point2point_fminsearch.m](./Calibration_Method/T_point2point_fminsearch.m): computes the transformation T_final which maps the linear reference-RGB points into the linear user-RGB points. This transformation is computed finding the minimum of unconstrained multivariable function using derivative-free method from point to point. 
+
 $$
 \begin{equation}
     \begin{bmatrix}
@@ -124,6 +125,7 @@ $$
 $$
 
 * [T_white.m](./Calibration_Method/T_white.m): computes the transformation T_final which maps the linear reference-RGB points into their correspondent hue planes in the linear user-RGB space. The transformation is obtained minimizing the distance between the linear reference-RGB points and the hue planes in the linear user-RGB space by performing a constrained optimization. 
+
 $$
 \begin{equation}
     \begin{bmatrix}
@@ -141,6 +143,7 @@ $$
     \end{bmatrix}
 \end{equation}
 $$
+
 ## References
 
 You can find the references in the folder [documents](./documents/).
