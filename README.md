@@ -124,7 +124,7 @@ $$
 \end{equation}
 $$
 
-* [T_white.m](./Calibration_Method/T_white.m): computes the transformation T_final which maps the linear reference-RGB points into their correspondent hue planes in the linear user-RGB space. The transformation is obtained minimizing the distance between the linear reference-RGB points and the hue planes in the linear user-RGB space by performing a constrained optimization. 
+* [T_white.m](./Calibration_Method/T_white.m): computes the transformation T_final which maps the linear reference-RGB points into their correspondent hue planes in the linear user-RGB space. The transformation is obtained minimizing the distance between the linear reference-RGB points and the hue planes in the linear user-RGB space by performing a constrained optimization. This transformation adds an additional constraint to preserve the greyscale after the transformation. 
 
 $$
 \begin{equation}
