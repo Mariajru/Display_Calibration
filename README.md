@@ -8,7 +8,7 @@
 
 <div style="text-align: center"> 
     
-    [The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references) 
+[The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references) 
     
 </div>
 
@@ -130,12 +130,10 @@ $$
 \begin{equation}
     \begin{bmatrix}
     r^{lin} & g^{lin} & b^{lin}
-    \end{bmatrix}_{ref, grey}
-    =  
+    \end{bmatrix}_{ref, grey} =  
     \begin{bmatrix}
     r^{lin} & g^{lin} & b^{lin}
-    \end{bmatrix}_{user, grey}
-    \cdot
+    \end{bmatrix}_{user, grey} \cdot
     \begin{bmatrix}
     t_{11} & t_{12} & t_{13}\\
     t_{21} & t_{22} & t_{23}\\ 
