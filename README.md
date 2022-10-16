@@ -7,7 +7,9 @@
 <hr>
 
 <div style="text-align: center"> 
+    
     [The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references) 
+    
 </div>
 
 <hr>
@@ -109,7 +111,9 @@ $$
     \end{bmatrix}_{ref}
     \cdot
     \begin{bmatrix}
-    t_{11} & t_{12} & t_{13}\\t_{21} & t_{22} & t_{23}\\t_{31} & t_{32} & t_{33}\\ 
+    t_{11} & t_{12} & t_{13} \\
+    t_{21} & t_{22} & t_{23} \\
+    t_{31} & t_{32} & t_{33} \\ 
     \end{bmatrix} 
     \cdot 
     \begin{bmatrix}
