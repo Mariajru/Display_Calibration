@@ -7,9 +7,7 @@
 <hr>
 
 <p align="center">  
-    
-    [The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references)   
-    
+[The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references)   
 </p>
 
 <hr>
