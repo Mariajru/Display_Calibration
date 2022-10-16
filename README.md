@@ -19,7 +19,7 @@
 
 ## The Pitch
 
-Graphical user interface to determine unique hues or "pure" hues. Such as a red neither bluish nor yellowish.  
+Graphical User Interface (GUI) and calibration method to match two displays in terms of color appearance. The GUI is used to determine unique hues or "pure" hues. Such as a red neither bluish nor yellowish. These hues are used to perform the calibration method. 
 
 This GUI is implemented using the library [jsPsych](https://www.jspsych.org/7.3/) to make it avaiable for every computer display device. jsPysch can be run online and it is supported by [Pavlovia](https://pavlovia.org/#main) (site created to easily run experiments online).
 
