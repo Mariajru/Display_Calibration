@@ -8,7 +8,7 @@
 
 <p align="center">
     <a href="#the-pitch">The Pitch</a> |
-    <a href="##gui-usage">GUI</a> |
+    <a href="#gui-usage">GUI</a> |
     <a href="#calibration-method">Calibration Method</a> |
     <a href="#references">References</a>   
 </p>
