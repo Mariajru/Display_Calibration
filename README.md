@@ -6,7 +6,11 @@
 
 <hr>
 
-<p align="center">  [The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references)   </p>
+<p align="center">
+    <a href="#the-pitch">The Pitch</a> |
+    <a href="#usage">Usage</a> |
+    <a href="#references">References</a>   
+</p>
 
 <hr>
 
