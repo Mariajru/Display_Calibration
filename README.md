@@ -86,12 +86,12 @@ There are three types of matrix-based transformations to calibrate a user displa
 
 $$\begin{equation}
     \begin{bmatrix}
-    r^{lin}\\ g^{lin}\\ b^{lin}
-    \end{bmatrix}_{ref}^T
+    r^{lin} & g^{lin} & b^{lin}
+    \end{bmatrix}_{ref}
     =  
     \begin{bmatrix}
-    r^{lin}\\ g^{lin}\\ b^{lin}
-    \end{bmatrix}^T_{user}
+    r^{lin} & g^{lin} & b^{lin}
+    \end{bmatrix}_{user}
     \cdot
     \begin{bmatrix}
     t_{11} & t_{12} & t_{13}\\
@@ -105,19 +105,17 @@ $$\begin{equation}
 $$
 \begin{equation}
     \begin{bmatrix}
-    r^{lin}_h & g^{lin}_h & b^{lin}_h
+    r^{lin} & g^{lin} & b^{lin}
     \end{bmatrix}_{ref}
-    \cdot 
+    \cdot
     \begin{bmatrix}
-    t_{11} & t_{12} & t_{13}\\
-    t_{21} & t_{22} & t_{23}\\ 
-    t_{31} & t_{32} & t_{33}\\ 
+    t_{11} & t_{12} & t_{13}\\t_{21} & t_{22} & t_{23}\\t_{31} & t_{32} & t_{33}\\ 
     \end{bmatrix} 
     \cdot 
     \begin{bmatrix}
-    \alpha^{lin}_h\\
-    \beta^{lin}_h\\
-    \gamma^{lin}_h
+    \alpha^{lin}\\
+    \beta^{lin}\\
+    \gamma^{lin}
     \end{bmatrix}_{user} = 0
 \end{equation}
 $$
@@ -127,12 +125,12 @@ $$
 $$
 \begin{equation}
     \begin{bmatrix}
-    r^{lin}\\ g^{lin}\\ b^{lin}
-    \end{bmatrix}_{ref, grey}^T
+    r^{lin} & g^{lin} & b^{lin}
+    \end{bmatrix}_{ref, grey}
     =  
     \begin{bmatrix}
-    r^{lin}\\ g^{lin}\\ b^{lin}
-    \end{bmatrix}_{user, grey}^T
+    r^{lin} & g^{lin} & b^{lin}
+    \end{bmatrix}_{user, grey}
     \cdot
     \begin{bmatrix}
     t_{11} & t_{12} & t_{13}\\
