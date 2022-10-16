@@ -6,7 +6,9 @@
 
 <hr>
 
-<div style="text-align: center"> [The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references) </div>
+<div style="text-align: center"> 
+    [The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references) 
+</div>
 
 <hr>
 
