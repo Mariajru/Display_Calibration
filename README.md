@@ -86,8 +86,7 @@ There are three types of matrix-based transformations to calibrate a user displa
 
 * [T_point2point_fminsearch.m](./Calibration_Method/T_point2point_fminsearch.m): computes the transformation T_final which maps the linear reference-RGB points into the linear user-RGB points. This transformation is computed finding the minimum of unconstrained multivariable function using derivative-free method from point to point. 
 
-$$
-\begin{equation}
+$$\begin{equation}
     \begin{bmatrix}
     r^{lin}\\ g^{lin}\\ b^{lin}
     \end{bmatrix}_{ref}^T
@@ -101,8 +100,7 @@ $$
     t_{21} & t_{22} & t_{23}\\ 
     t_{31} & t_{32} & t_{33}\\ 
     \end{bmatrix}
-\end{equation}
-$$
+\end{equation}$$
 
 * [T_optimization_plane.m](./Calibration_Method/T_optimization_plane.m): computes the transformation T_final which maps the linear reference-RGB points into their correspondent hue planes in the linear user-RGB space. The transformation is obtained minimizing the distance between the linear reference-RGB points and the hue planes in the linear user-RGB space by performing a constrained optimization. 
   
