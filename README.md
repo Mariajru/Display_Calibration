@@ -1,4 +1,4 @@
-<div style="text-align: justify">
+<p align="justify">
 
 # GUI to perform hue judgments & Calibration method
 
@@ -6,11 +6,11 @@
 
 <hr>
 
-<div style="text-align: center"> 
+<p align="center"> 
     
 [The Pitch](#the-pitch) $\cdot$ [Usage](#usage) $\cdot$ [References](#references) 
     
-</div>
+</p>
 
 <hr>
 
@@ -146,7 +146,7 @@ $$
 
 You can find the references in the folder [documents](./documents/).
 
-</div>
+</p>
 
 
 
