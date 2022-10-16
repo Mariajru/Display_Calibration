@@ -4,6 +4,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+<em>The [document](./documents/) folder contains detailed information about the designed graphical user interface and the calibration method.</em>
+
 <hr>
 
 <p align="center">
@@ -14,10 +16,6 @@
 </p>
 
 <hr>
-
-<em>The [document](./documents/) folder contains detailed information about the designed graphical user interface and the calibration method.</em>
-
-## The Pitch
 
 Graphical User Interface (GUI) and calibration method to match two displays in terms of color appearance. The GUI is used to determine unique hues or "pure" hues. Such as a red neither bluish nor yellowish. These hues are used to perform the calibration method. 
 
