@@ -89,11 +89,11 @@ There are three types of matrix-based transformations to calibrate a user displa
 $$\begin{equation}
     \begin{bmatrix}
     r^{lin} & g^{lin} & b^{lin}
-    \end{bmatrix}_{ref}
+    \end{bmatrix}\_{ref}
     =  
     \begin{bmatrix}
     r^{lin} & g^{lin} & b^{lin}
-    \end{bmatrix}_{user}
+    \end{bmatrix}\_{user}
     \cdot
     \begin{bmatrix}
     t_{11} & t_{12} & t_{13}\\
@@ -108,7 +108,7 @@ $$
 \begin{equation}
     \begin{bmatrix}
     r^{lin} & g^{lin} & b^{lin}
-    \end{bmatrix}_{ref}
+    \end{bmatrix}\_{ref}
     \cdot
     \begin{bmatrix}
     t_{11} & t_{12} & t_{13} \\
@@ -120,7 +120,7 @@ $$
     \alpha^{lin}\\
     \beta^{lin}\\
     \gamma^{lin}
-    \end{bmatrix}_{user} = 0
+    \end{bmatrix}\_{user} = 0
 \end{equation}
 $$
 
@@ -130,10 +130,10 @@ $$
 \begin{equation}
     \begin{bmatrix}
     r^{lin} & g^{lin} & b^{lin}
-    \end{bmatrix}_{ref, grey} =  
+    \end{bmatrix}\_{ref, grey} =  
     \begin{bmatrix}
     r^{lin} & g^{lin} & b^{lin}
-    \end{bmatrix}_{user, grey} \cdot
+    \end{bmatrix}\_{user, grey} \cdot
     \begin{bmatrix}
     t_{11} & t_{12} & t_{13}\\
     t_{21} & t_{22} & t_{23}\\ 
