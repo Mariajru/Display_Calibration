@@ -91,7 +91,7 @@ $$\begin{equation}
     =  
     \begin{bmatrix}
     r^{lin}\\ g^{lin}\\ b^{lin}
-    \end{bmatrix}_{user}^T
+    \end{bmatrix}^T_{user}
     \cdot
     \begin{bmatrix}
     t_{11} & t_{12} & t_{13}\\
@@ -107,11 +107,13 @@ $$
     \begin{bmatrix}
     r^{lin}_h & g^{lin}_h & b^{lin}_h
     \end{bmatrix}_{ref}
-    \cdot \begin{bmatrix}
+    \cdot 
+    \begin{bmatrix}
     t_{11} & t_{12} & t_{13}\\
     t_{21} & t_{22} & t_{23}\\ 
     t_{31} & t_{32} & t_{33}\\ 
-    \end{bmatrix} \cdot 
+    \end{bmatrix} 
+    \cdot 
     \begin{bmatrix}
     \alpha^{lin}_h\\
     \beta^{lin}_h\\
