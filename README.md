@@ -143,7 +143,7 @@ $$
 ### Calibration process workflow
 
 <p align="center">
-<img src="./examples/workflow.png" width="570" height="420">
+<img src="./examples/workflow.png" width="670" height="520">
 </p>
 
 ## References
